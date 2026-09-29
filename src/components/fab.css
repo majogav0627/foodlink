@@ -1,0 +1,24 @@
+.fab {
+  position: absolute;
+  bottom: 96px; /* Above Bottom Nav */
+  right: var(--margin-side);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--color-secondary);
+  color: white;
+  box-shadow: var(--elevation-z3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  transition: transform 0.2s;
+}
+
+.fab:active {
+  transform: scale(0.95);
+}
+
+.fab .material-symbols-rounded {
+  font-size: 32px;
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">FOODLINK</string>
+    <string name="title_activity_main">FOODLINK</string>
+    <string name="package_name">com.foodlink.app</string>
+    <string name="custom_url_scheme">com.foodlink.app</string>
+</resources>
